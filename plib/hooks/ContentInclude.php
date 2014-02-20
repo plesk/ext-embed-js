@@ -6,7 +6,7 @@ class Modules_EmbedJs_ContentInclude extends pm_Hook_ContentInclude
     public static function getJsConfig()
     {
         return [
-            'dynamicVar' => 'value here',
+            'dynamicVar' => date(DATE_ATOM),
         ];
     }
 
@@ -23,6 +23,11 @@ class Modules_EmbedJs_ContentInclude extends pm_Hook_ContentInclude
     public static function getHeadContent()
     {
         return '<!-- additional content for head tag -->';
+    }
+
+    public static function getBodyContent()
+    {
+        return '<!-- additional content for body tag -->';
     }
 
 }
