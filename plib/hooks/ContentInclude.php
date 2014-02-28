@@ -3,29 +3,29 @@
 class Modules_EmbedJs_ContentInclude extends pm_Hook_ContentInclude
 {
 
-    public static function getJsConfig()
+    public function getJsConfig()
     {
         return [
             'dynamicVar' => date(DATE_ATOM),
         ];
     }
 
-    public static function getJsOnReadyContent()
+    public function getJsOnReadyContent()
     {
         return 'PleskExt.EmbedJs.init();';
     }
 
-    public static function getJsContent()
+    public function getJsContent()
     {
         return '// example';
     }
 
-    public static function getHeadContent()
+    public function getHeadContent()
     {
         return '<!-- additional content for head tag -->';
     }
 
-    public static function getBodyContent()
+    public function getBodyContent()
     {
         return '<!-- additional content for body tag -->';
     }
