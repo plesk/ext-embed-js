@@ -1,4 +1,4 @@
-// Copyright 1999-2014. Parallels IP Holdings GmbH. All Rights Reserved.
+// Copyright 1999-2014. Parallels IP Holdings GmbH.
 Jsw.namespace('PleskExt.EmbedJs');
 
 PleskExt.EmbedJs.init = function() {
