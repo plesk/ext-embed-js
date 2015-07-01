@@ -1,0 +1,8 @@
+EmbedJs
+
+A test extension intended to demonstrate how to embed JavaScript code into Plesk pages.
+
+The following techniques are demonstrated:
+* Creation of dynamic variable on server side to be accessible on client side.
+* Inclusion of custom JavaScript files into Plesk pages.
+* Inclusion of custom content into page header and footer.
