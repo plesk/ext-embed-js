@@ -6,7 +6,7 @@
   <description>Demonstrates how to embed JavaScript code into Plesk pages.</description>
   <url>https://github.com/plesk/ext-embed-js</url>
   <version>1.0</version>
-  <release>10</release>
+  <release>11</release>
   <vendor>Plesk</vendor>
   <plesk_min_version>12.0</plesk_min_version>
 </module>
